@@ -6,6 +6,18 @@
   padding: 0px;
   box-sizing: border-box;
 }
+
+::-webkit-scrollbar {
+    display: none;
+}
+overflow: hidden;
+
+.no-scrollbars {
+  /* Keeps both the horizontal and vertical 
+     scrollbars hidden */
+  overflow: hidden;
+}
+
 .login-1-2444 {
   position: absolute;
   width: 1090px;
